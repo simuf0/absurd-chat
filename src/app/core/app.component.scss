@@ -1,0 +1,11 @@
+main {
+  height: 100%;
+  overflow: hidden;
+}
+@media screen and (min-width: 432px) {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
