@@ -1,8 +1,8 @@
-export { Adjective } from "./adjective.model";
-export { Adverb } from "./adverb.model";
-export { Infinitive } from "./infinitive.model";
-export { Pronoun } from "./pronoun.model";
-export { Sentence } from "./sentence.model";
-export { Substantive } from "./substantive.model";
-export { Verb } from "./verb.model";
-export { Word } from "./word.model";
+export { Adjectif } from "./adjectif.model";
+export { Adverbe } from "./adverbe.model";
+export { Infinitif } from "./infinitif.model";
+export { Mot } from "./mot.model";
+export { Phrase } from "./phrase.model";
+export { Pronom } from "./pronom.model";
+export { Substantif } from "./substantif.model";
+export { Verbe } from "./verbe.model";

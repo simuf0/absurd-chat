@@ -1,4 +1,4 @@
-export abstract class Word {
+export abstract class Mot {
 
   private _value: string;
 
