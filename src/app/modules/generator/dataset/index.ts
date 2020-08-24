@@ -15,6 +15,8 @@ export { infinitifs } from './infinitifs';
 
 export { pronoms } from './pronoms';
 
+export { determinants } from './determinants';
+
 export { substantifs as substantifsFemininPluriel } from './substantifs/feminin-pluriel';
 export { substantifs as substantifsFemininSingulier } from './substantifs/feminin-singulier';
 export { substantifs as substantifsMasculinPluriel } from './substantifs/masculin-pluriel';

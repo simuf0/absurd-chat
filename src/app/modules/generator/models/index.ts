@@ -1,5 +1,6 @@
 export { Adjectif } from "./adjectif.model";
 export { Adverbe } from "./adverbe.model";
+export { Determinant } from "./determinant.model";
 export { Infinitif } from "./infinitif.model";
 export { Mot } from "./mot.model";
 export { Phrase } from "./phrase.model";
