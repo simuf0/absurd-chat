@@ -1,0 +1,9 @@
+export enum Temps {
+  CONDITIONNEL,
+  FUTUR,
+  IMPARFAIT,
+  // SUBJONCTIF_PASSE,
+  PRESENT,
+  PASSE_SIMPLE,
+  // SUBJONCTIF,
+}

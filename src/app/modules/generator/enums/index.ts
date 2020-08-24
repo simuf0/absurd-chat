@@ -1,4 +1,5 @@
-export { Gender } from "./gender.enum";
-export { Number } from "./number.enum";
-export { PronounType } from "./pronoun-type.enum";
-export { Time } from "./time.enum";
+export { Genre } from "./genre.enum";
+export { Nombre } from "./nombre.enum";
+export { Temps } from "./temps.enum";
+export { TypeDeterminant } from "./type-determinant.enum";
+export { TypePronom } from "./type-pronom";

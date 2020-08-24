@@ -1,9 +1,0 @@
-export enum Time {
-  CONDITIONAL,
-  FUTURE,
-  IMPERFECT,
-  // PAST_SUBJUNCTIVE,
-  PRESENT,
-  SIMPLE_PAST,
-  // SUBJUNCTIVE,
-}
