@@ -1,65 +1,72 @@
-export { adjectives as adjectivesFemininePlural } from './adjectives/feminine-plural';
-export { adjectives as adjectivesFeminineSingular } from './adjectives/feminine-singular';
-export { adjectives as adjectivesMalePlural } from './adjectives/male-plural';
-export { adjectives as adjectivesMaleSingular } from './adjectives/male-singular';
+export { adjectifs as adjectifsFemininPluriel } from './adjectifs/feminin-pluriel';
+export { adjectifs as adjectifsFemininSingulier } from './adjectifs/feminin-singulier';
+export { adjectifs as adjectifsMasculinPluriel } from './adjectifs/masculin-pluriel';
+export { adjectifs as adjectifsMasculinSingulier } from './adjectifs/masculin-singulier';
 
-export { participles as presentParticiples } from './participles/present-participles';
-export { participles as pastParticiplesFemininPlurale } from './participles/past-participles/feminine-plural';
-export { participles as pastParticiplesFeminineSingular } from './participles/past-participles/feminine-singular';
-export { participles as pastParticiplesMalePlural } from './participles/past-participles/male-plural';
-export { participles as pastParticiplesMaleSingular } from './participles/past-participles/male-singular';
+export { participes as participesPresent } from './participes/participes-present';
+export { participes as participesPasseFemininPluriel } from './participes/participes-passe/feminin-pluriel';
+export { participes as participesPasseFemininSingulier } from './participes/participes-passe/feminin-singulier';
+export { participes as participesPasseMasculinPluriel } from './participes/participes-passe/masculin-pluriel';
+export { participes as participesPasseMasculinSingulier } from './participes/participes-passe/masculin-singulier';
 
-export { adverbs } from './adverbs';
+export { adverbes } from './adverbes';
 
-export { infinitives } from './infinitives';
+export { infinitifs } from './infinitifs';
 
-export { pronouns } from './pronouns';
+export { pronoms } from './pronoms';
 
-export { substantives as substantivesFemininePlural } from './substantives/feminine-plural';
-export { substantives as substantivesFeminineSingular } from './substantives/feminine-singular';
-export { substantives as substantivesMalePlural } from './substantives/male-plural';
-export { substantives as substantivesMaleSingular } from './substantives/male-singular';
+export { substantifs as substantifsFemininPluriel } from './substantifs/feminin-pluriel';
+export { substantifs as substantifsFemininSingulier } from './substantifs/feminin-singulier';
+export { substantifs as substantifsMasculinPluriel } from './substantifs/masculin-pluriel';
+export { substantifs as substantifsMasculinSingulier } from './substantifs/masculin-singulier';
 
-export { verbs as verbsFuture0 } from './verbs/future/1e_pers-singulier';
-export { verbs as verbsFuture1 } from './verbs/future/2e_pers-singulier';
-export { verbs as verbsFuture2 } from './verbs/future/3e_pers-singulier';
-export { verbs as verbsFuture3 } from './verbs/future/1e_pers-pluriel';
-export { verbs as verbsFuture4 } from './verbs/future/2e_pers-pluriel';
-export { verbs as verbsFuture5 } from './verbs/future/3e_pers-pluriel';
+export { verbes as verbesConditionel0 } from './verbes/conditionel/1e_pers-singulier';
+export { verbes as verbesConditionel1 } from './verbes/conditionel/2e_pers-singulier';
+export { verbes as verbesConditionel2 } from './verbes/conditionel/3e_pers-singulier';
+export { verbes as verbesConditionel3 } from './verbes/conditionel/1e_pers-pluriel';
+export { verbes as verbesConditionel4 } from './verbes/conditionel/2e_pers-pluriel';
+export { verbes as verbesConditionel5 } from './verbes/conditionel/3e_pers-pluriel';
 
-export { verbs as verbsConditional0 } from './verbs/conditional/1e_pers-singulier';
-export { verbs as verbsConditional1 } from './verbs/conditional/2e_pers-singulier';
-export { verbs as verbsConditional2 } from './verbs/conditional/3e_pers-singulier';
-export { verbs as verbsConditional3 } from './verbs/conditional/1e_pers-pluriel';
-export { verbs as verbsConditional4 } from './verbs/conditional/2e_pers-pluriel';
-export { verbs as verbsConditional5 } from './verbs/conditional/3e_pers-pluriel';
+export { verbes as verbesFutur0 } from './verbes/futur/1e_pers-singulier';
+export { verbes as verbesFutur1 } from './verbes/futur/2e_pers-singulier';
+export { verbes as verbesFutur2 } from './verbes/futur/3e_pers-singulier';
+export { verbes as verbesFutur3 } from './verbes/futur/1e_pers-pluriel';
+export { verbes as verbesFutur4 } from './verbes/futur/2e_pers-pluriel';
+export { verbes as verbesFutur5 } from './verbes/futur/3e_pers-pluriel';
 
-export { verbs as verbsImperfect0 } from './verbs/imperfect/1e_pers-singulier';
-export { verbs as verbsImperfect1 } from './verbs/imperfect/2e_pers-singulier';
-export { verbs as verbsImperfect2 } from './verbs/imperfect/3e_pers-singulier';
-export { verbs as verbsImperfect3 } from './verbs/imperfect/1e_pers-pluriel';
-export { verbs as verbsImperfect4 } from './verbs/imperfect/2e_pers-pluriel';
-export { verbs as verbsImperfect5 } from './verbs/imperfect/3e_pers-pluriel';
+export { verbes as verbesImparfait0 } from './verbes/imparfait/1e_pers-singulier';
+export { verbes as verbesImparfait1 } from './verbes/imparfait/2e_pers-singulier';
+export { verbes as verbesImparfait2 } from './verbes/imparfait/3e_pers-singulier';
+export { verbes as verbesImparfait3 } from './verbes/imparfait/1e_pers-pluriel';
+export { verbes as verbesImparfait4 } from './verbes/imparfait/2e_pers-pluriel';
+export { verbes as verbesImparfait5 } from './verbes/imparfait/3e_pers-pluriel';
 
-export { verbs as verbsPresent0 } from './verbs/present/1e_pers-singulier';
-export { verbs as verbsPresent1 } from './verbs/present/2e_pers-singulier';
-export { verbs as verbsPresent2 } from './verbs/present/3e_pers-singulier';
-export { verbs as verbsPresent3 } from './verbs/present/1e_pers-pluriel';
-export { verbs as verbsPresent4 } from './verbs/present/2e_pers-pluriel';
-export { verbs as verbsPresent5 } from './verbs/present/3e_pers-pluriel';
+export { verbes as verbesPasseSimple0 } from './verbes/passe-simple/1e_pers-singulier';
+export { verbes as verbesPasseSimple1 } from './verbes/passe-simple/2e_pers-singulier';
+export { verbes as verbesPasseSimple2 } from './verbes/passe-simple/3e_pers-singulier';
+export { verbes as verbesPasseSimple3 } from './verbes/passe-simple/1e_pers-pluriel';
+export { verbes as verbesPasseSimple4 } from './verbes/passe-simple/2e_pers-pluriel';
+export { verbes as verbesPasseSimple5 } from './verbes/passe-simple/3e_pers-pluriel';
 
-export { verbs as verbsSimplePast0 } from './verbs/simple-past/1e_pers-singulier';
-export { verbs as verbsSimplePast1 } from './verbs/simple-past/2e_pers-singulier';
-export { verbs as verbsSimplePast2 } from './verbs/simple-past/3e_pers-singulier';
-export { verbs as verbsSimplePast3 } from './verbs/simple-past/1e_pers-pluriel';
-export { verbs as verbsSimplePast4 } from './verbs/simple-past/2e_pers-pluriel';
-export { verbs as verbsSimplePast5 } from './verbs/simple-past/3e_pers-pluriel';
+export { verbes as verbesPresent0 } from './verbes/present/1e_pers-singulier';
+export { verbes as verbesPresent1 } from './verbes/present/2e_pers-singulier';
+export { verbes as verbesPresent2 } from './verbes/present/3e_pers-singulier';
+export { verbes as verbesPresent3 } from './verbes/present/1e_pers-pluriel';
+export { verbes as verbesPresent4 } from './verbes/present/2e_pers-pluriel';
+export { verbes as verbesPresent5 } from './verbes/present/3e_pers-pluriel';
 
-export { verbs as verbsSubjonctif0 } from "./verbs/subjunctive/1e_pers-singulier";
-export { verbs as verbsSubjonctif1 } from './verbs/subjunctive/2e_pers-singulier';
-export { verbs as verbsSubjonctif2 } from './verbs/subjunctive/3e_pers-singulier';
-export { verbs as verbsSubjonctif3 } from './verbs/subjunctive/1e_pers-pluriel';
-export { verbs as verbsSubjonctif4 } from './verbs/subjunctive/2e_pers-pluriel';
-export { verbs as verbsSubjonctif5 } from './verbs/subjunctive/3e_pers-pluriel';
+export { verbes as verbesSubjonctif0 } from "./verbes/subjonctif/1e_pers-singulier";
+export { verbes as verbesSubjonctif1 } from './verbes/subjonctif/2e_pers-singulier';
+export { verbes as verbesSubjonctif2 } from './verbes/subjonctif/3e_pers-singulier';
+export { verbes as verbesSubjonctif3 } from './verbes/subjonctif/1e_pers-pluriel';
+export { verbes as verbesSubjonctif4 } from './verbes/subjonctif/2e_pers-pluriel';
+export { verbes as verbesSubjonctif5 } from './verbes/subjonctif/3e_pers-pluriel';
 
-export { vowelsCode } from './vowels-code';
+export { verbes as verbesSubjonctifPasse0 } from "./verbes/subjonctif-passe/1e_pers-singulier";
+export { verbes as verbesSubjonctifPasse1 } from './verbes/subjonctif-passe/2e_pers-singulier';
+export { verbes as verbesSubjonctifPasse2 } from './verbes/subjonctif-passe/3e_pers-singulier';
+export { verbes as verbesSubjonctifPasse3 } from './verbes/subjonctif-passe/1e_pers-pluriel';
+export { verbes as verbesSubjonctifPasse4 } from './verbes/subjonctif-passe/2e_pers-pluriel';
+export { verbes as verbesSubjonctifPasse5 } from './verbes/subjonctif-passe/3e_pers-pluriel';
+
+export { codesVoyelles } from './codes-voyelles';
